@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Click | Pronóstico Semanal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Clima <strong>Click</strong></a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="#">Detalle</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 text-center">
+        <h2 id="titulo-ciudad" class="display-5 mb-4">Pronóstico para la Ciudad</h2>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow border-0 p-4">
+                    <h3>Próximos 5 días</h3>
+                    <hr>
+                    <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Lunes <span>☀️ 28°C</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Martes <span>⛅ 26°C</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Miércoles <span>☁️ 22°C</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Jueves <span>🌧️ 18°C</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Viernes <span>☀️ 25°C</span>
+                        </li>
+                    </ul>
+                    <a href="index.html" class="btn btn-primary mt-4">Volver al inicio</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0">© 2026 Clima Click. Todos los derechos reservados.</p>
+            <small class="text-secondary">Coronel, Chile</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
